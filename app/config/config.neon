@@ -1,0 +1,17 @@
+parameters:
+
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\*Module\Presenter\*Presenter
+
+
+session:
+	expiration: 14 days
+
+
+services:
+    router: App\Router\RouterFactory::createRouter
+    - App\ValueObject\Post\IPostFactory
+    - App\ValueObject\User\UserForRegistrationFactory
