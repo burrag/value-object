@@ -5,6 +5,7 @@ namespace App\ValueObject\Post;
 /**
  * V konstruktoru by nemeli byt zadne validace
  * Pokud by jsme meli neco validovat, tak naimplementujeme IPostFactory nebo udelat pomoci staticke public metody
+ * Tentio zpusob muze byt pouzit vsude
  *
  * @author Marek Humpolik <marek.humpolik@inspire.cz>
  */

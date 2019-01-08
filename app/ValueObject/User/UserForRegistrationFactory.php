@@ -7,7 +7,8 @@ use Nette\InvalidArgumentException;
 use Nette\Utils\Validators;
 
 /**
- * muzes zde mi zavislosti, takze muzes napr koukat do DB, udelat si validador a predavat mu data na validaci
+ * muzes zde mit zavislosti, takze muzes napr koukat do DB, udelat si validador a predavat mu data na validaci
+ * Tentio zpusob muze byt pouzit vsude
  *
  * @author Marek Humpolik <marek.humpolik@inspire.cz>
  */

@@ -7,6 +7,7 @@ use Nette\Database\Row;
 /**
  * Objekty, ktere nepotrebuji slozitou validaci
  * U tohoto nemuze byt tovarnicka, protoze konstruktor je private
+ * Tento zpusob je dobry v komponentach, presenterech
  *
  * @author Marek Humpolik <marek.humpolik@inspire.cz>
  */
